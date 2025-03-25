@@ -69,10 +69,6 @@ export default function Home() {
       </div> */}
 
       <div className="w-full lg:h-screen min-h-screen relative isolate overflow-hidden lg:p-8 shadow-2xl flex flex-col justify-start">
-        <h1 className="mx-auto text-4xl p-3 sm:text-8xl lg:text-9xl font-bold font-display leading-none tracking-wide game-title w-full text-left sm:text-center sm:w-auto">
-          AI Town
-        </h1>
-
         <div className="max-w-xs md:max-w-xl lg:max-w-none mx-auto my-4 text-center text-base sm:text-xl md:text-2xl text-white leading-tight shadow-solid">
           A virtual town where AI characters live, chat and socialize.
           {/* <Unauthenticated>
@@ -95,6 +91,10 @@ export default function Home() {
             <Button imgUrl={helpImg} onClick={() => setHelpModalOpen(true)}>
               Help
             </Button>
+
+            <h3 style={{flexGrow: 1, fontSize: '3em'}} className="flex-grow p-3 lg:text-5xl font-bold font-display leading-none tracking-wide game-title w-full text-left sm:text-center sm:w-auto">
+              AI Town
+            </h3>
           </div>
           {/* <a href="https://a16z.com">
             <img className="w-8 h-8 pointer-events-auto" src={a16zImg} alt="a16z" />
